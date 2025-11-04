@@ -1,7 +1,7 @@
 <?php
 
 $posts = 0;
-
+$rootbase = "/var/task/user/api/"
 ?>
 <!DOCTYPE html>
 <html>
@@ -12,7 +12,7 @@ $posts = 0;
 
     <body>
         <div class="layout">
-            <?php readfile("templates/topbar.html") ?>
+            <?php readfile($rootbase . "templates/topbar.html") ?>
 
             <div class="container">
                 <div>

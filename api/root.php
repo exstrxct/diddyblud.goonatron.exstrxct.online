@@ -12,11 +12,11 @@ $rootbase = "/var/task/user/api/"
 
     <body>
         <div class="layout">
-            <?php readfile($rootbase . "templates/topbar.html") ?>
+            <?php readfile($rootbase . "src/templates/topbar.html") ?>
 
             <div class="container">
                 <div>
-                    <img alt="Mascot" src="/src/files/img/Mascot.png">
+                    <?php echo `<img alt="Mascot" src=`. $rootbase . `"/src/files/img/Mascot.png"` ?>
                 </div>
                 <div>
                     <h2>Welcome to Broom34</h2>

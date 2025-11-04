@@ -7,7 +7,7 @@ $posts = 0;
 <html>
     <head>
         <title>Broom34</title>
-        <link rel="stylesheet" href="/src/files/css/stylelink.css">
+        <?php echo `<link rel="stylesheet" href="/src/files/css/stylelink.css">` ?>
     </head>
 
     <body>

@@ -12,7 +12,7 @@ $posts = 0;
 
     <body>
         <div class="layout">
-            <?php include("/src/files/templates/topbar.html") ?>
+            <?php readfile("templates/topbar.html") ?>
 
             <div class="container">
                 <div>

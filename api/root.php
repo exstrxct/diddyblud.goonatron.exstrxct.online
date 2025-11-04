@@ -7,12 +7,12 @@ $posts = 0;
 <html>
     <head>
         <title>Broom34</title>
-        <?php echo `<link rel="stylesheet" href="/src/files/css/stylelink.css">` ?>
+        <link rel="stylesheet" href="/src/files/css/stylelink.css">
     </head>
 
     <body>
         <div class="layout">
-            <?php include "/src/files/templates/topbar.html" ?>
+            <?php include("/src/files/templates/topbar.html") ?>
 
             <div class="container">
                 <div>

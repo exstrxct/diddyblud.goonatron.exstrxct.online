@@ -7,7 +7,7 @@ $rootbase = "/var/task/user/api/"
 <html>
     <head>
         <title>Broom34</title>
-        <link rel="stylesheet" type="text/css" href="/var/task/user/api/src/files/css/stylelink.css">
+        <link rel="stylesheet" href="/api/src/files/css/stylelink.css">
     </head>
 
     <body>
@@ -16,11 +16,11 @@ $rootbase = "/var/task/user/api/"
 
             <div class="container">
                 <div>
-                   <img alt="Mascot" src="/var/task/user/api/src/files/img/Mascot.png">
+                   <img alt="Mascot" src="/api/src/files/img/Mascot.png">
                 </div>
                 <div>
                     <h2>Welcome to Broom34</h2>
-                    <?php echo "Serving ". $posts ." posts!" ?>
+                    <p>Serving <?= htmlspecialchars($posts) ?> posts!</p>
                 </div>
             </div>
         </div>

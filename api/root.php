@@ -8,7 +8,7 @@ $rootbase = "/var/task/user/api/"
 <html>
     <head>
         <title>Broom34</title>
-        <link rel="stylesheet" href="/api/src/files/css/stylelink.css">
+        <link rel="stylesheet" href="./api/src/files/css/stylelink.css">
     </head>
 
     <body>
@@ -17,7 +17,7 @@ $rootbase = "/var/task/user/api/"
 
             <div class="container">
                 <div>
-                   <img alt="Mascot" src="/api/src/files/img/Mascot.png">
+                   <img alt="Mascot" src="./api/src/files/img/Mascot.png">
                 </div>
                 <div>
                     <h2>Welcome to Broom34</h2>

@@ -2,6 +2,7 @@
 
 $posts = 0;
 $rootbase = "/var/task/user/api/"
+
 ?>
 <!DOCTYPE html>
 <html>

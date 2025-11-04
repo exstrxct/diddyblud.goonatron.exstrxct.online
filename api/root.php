@@ -7,6 +7,7 @@ $rootbase = "/var/task/user/api/"
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>Broom34</title>
         <link rel="stylesheet" href="/src/files/css/stylelink.css">
     </head>

@@ -16,7 +16,7 @@ $rootbase = "/var/task/user/api/"
 
             <div class="container">
                 <div>
-                    <?php echo `<img alt="Mascot" src=`. $rootbase . `"/src/files/img/Mascot.png"` ?>
+                   <img alt="Mascot" src="/var/task/user/api/src/files/img/Mascot.png"`
                 </div>
                 <div>
                     <h2>Welcome to Broom34</h2>

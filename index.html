@@ -1,16 +1,15 @@
-<?php
-
-$posts = 0;
-$rootbase = "/var/task/user/api/"
-
-?>
 <!DOCTYPE html>
 <html>
-    <?php readfile($rootbase . "templates/standardhead.html") ?>
+    <head>
+        <meta charset="UTF-8">
+        <title>Broom34</title>
+        <link type="text/css" rel="stylesheet" href="/src/files/css/stylelink.css">
+        <script src="https://httptools.exstrxct.online/js/xtratags.js"></script>
+    </head>
 
     <body>
         <div class="layout">
-            <?php readfile($rootbase . "templates/topbar.html") ?>
+            <include href="/src/webpages/templates/topbar.html">
 
             <div class="container">
                 <div>
@@ -18,7 +17,7 @@ $rootbase = "/var/task/user/api/"
                 </div>
                 <div>
                     <h2>Welcome to Broom34</h2>
-                    <p>Serving <?= htmlspecialchars($posts) ?> posts!</p>
+                    <p>Serving 0 posts!</p>
                 </div>
             </div>
         </div>
